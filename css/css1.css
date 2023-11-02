@@ -1,0 +1,44 @@
+@font-face{font-family: DailymirrorPersonalUseRegular; src:url(../fonts/DailymirrorPersonalUseRegular-7B7gP.ttf);}
+
+.mainheading{font-family: DailymirrorPersonalUseRegular;}
+
+li>a{color: rgb(0,0,200);}
+
+#important1{font-size: 400%; color: rgb(0,0,128)}
+
+body{background-image: url("../images/background.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; padding: 30px;}
+
+fieldset{border: 5px solid blue; border-radius: 10px; padding: 20px; background-color: rgb(131,207,235);}
+
+legend{border: 5px solid blue; border-radius: 10px; padding: 10px; background-color: rgb(131,207,235); text-align: center;}
+
+.textbox:focus{background-color: rgb(114, 247, 201);}
+
+button:hover{color: rgb(114, 247, 201);}
+button{font-size: 20px; font-weight: bold;}
+
+.gct{height: 400px; width: 550px;}
+
+.griditem{border-style: solid; border-radius: 10px; height: 200px; background-color: rgb(131,207,235); border-width: 5px; 
+border-color: blue; padding: 50px;}
+
+.mynav{display: flex;}
+.box1{flex-grow: 1;}
+.box2{flex-grow: 1;}
+.box3{flex-grow: 1;}
+.wrapper{position: sticky; top: 0px; left: 0px; padding: 15px; width: 90%;}
+
+.mynav{border: 5px solid blue; border-radius: 10px; padding: 20px; background-color: rgb(131,207,235);}
+
+.griditem{border-style: solid; border-color: red; border-width: 20px; padding: 10px;}
+
+@media (max-width:800px){.random{color: green; background-color: black; border: 15px solid green;}}
+@media (min-width:800px){.random{color: purple; background-color: pink; border: 15px solid purple;}}
+
+.grid{
+	display: grid; 
+	gap: 10px; 
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 1rem;
+	list-style-type: none;
+}
